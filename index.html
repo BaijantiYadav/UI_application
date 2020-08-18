@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="conrainer_block">
+            <h1>SpecEx Launch programs</h1>
+        
+            <div class="wrapper">
+                <!--Start Filter-->
+                <aside class="left-section">
+                    <h3>Filters</h3>
+                    <div class="data">
+                        <h5>Launch Yaer</h5>
+                        <!--start launch year-->
+                        <div class="launch_year">
+                            <button>2006</button>
+                            <button>2007</button>
+                            <button>2008</button>
+                            <button>2009</button>
+                            <button>2010</button>
+                            <button>2011</button>
+                            <button>2012</button>
+                            <button>2013</button>
+                            <button>2014</button>
+                            <button>2015</button>
+                            <button>2016</button>
+                            <button>2017</button>
+                            <button>2018</button>
+                            <button>2019</button>
+                            <button>2020</button>
+                        </div>
+                        <!--End Launch Year-->
+                        <!--Start Successful Launch-->
+                        <h5> Successful Launch</h5>
+                        <div class="success_launch">
+                            <button class="true">True</button>
+                            <button class="false">False</button>
+                        </div>
+                        <!--End Successful Launch-->
+                        <!--Start Successful Landing-->
+                        <h5> Successful Lang</h5>
+                        <div class="success_lang">
+                            <button class="true">True</button>
+                            <button class="false">False</button>
+                        </div>
+                        <!--Start Successful Landing-->
+                    </div>
+                </aside>
+                <!--End Filter-->
+                <template  class="item" id="single_post">
+                    <li class="launch_item"> 
+                        <div class="img_box">
+                            <img class="launch_image">
+                            <h1></h1>
+                            
+                        </div>
+                        <div class="detail">
+                            <div >Mission ids : <sapn class="mission_id"></sapn></div>
+                            <div >Launch Year : <span class="launch_year_desc"></span></div>
+                            <div >Successful Launch : <span class="successful_launch"></span></div>
+                            <div >Successful Landing: <span class="succesful_landing"></span></div>
+                            <!-- <h6>Mission id : <span></span></h6> -->
+                        </div>
+                    </li>
+                </template>
+                <!--Start Mission Detail-->
+                <section class="right-section" id="lunch_post">
+                    <div class="items">
+                        <ul class=launch_items>
+
+                        </ul>
+                    </div>
+                </section>
+                <!--End Mission Detail-->
+            </div>
+        </div>
+        <!--Start Footer-->
+        <footer class="footer">
+            <h3>Developed By </h3>
+        </footer>
+        <!--End Footer-->
+    </div>
+    <script src="js/script.js" ></script>
+   
+</body>
+</html>
